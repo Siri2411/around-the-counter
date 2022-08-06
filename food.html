@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Around the counter </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="fo.css">
+    
+    <link rel=" shortcut icon" href="favicon.ico"/>
+    
+
+</head>
+<body>    
+<!-- header section starts  -->
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>around the counter</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="service.html">Menu</a>
+        <a href="gal.html">gallery</a>
+        <a href="review.html">review us </a>
+        
+        
+    </nav>
+
+    <div class="icons">
+        
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="ss images/veg cheese burger.jpg" alt="">
+            <div class="content">
+                <h3>veg cheese burger</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">Rs.50.00</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="ss images/guava shake.jpg" alt="">
+            <div class="content">
+                <h3>Guava shake</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">Rs.40.00</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/idvada.jpeg" alt="">
+            <div class="content">
+                <h3>idli vada</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">Rs.36.00</span>
+            </div>
+        </div>
+        <h3 class="total"> total : <span>126.00</span> </h3>
+        <a href="pay.html" class="btn">checkout cart</a>
+    </div>
+
+    <form action="php/connect.php" method="post" class="login-form">
+        <h3>login form</h3>
+        <input type="email" name="email" placeholder="enter your email" class="box">
+        <input type="password" name="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="remember" id="reem" value="check" style="height:15px;width:15px;margin-right:-1vw;">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>forgot password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+   
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>food made with love</h3>
+        <p>this website is made with love for the bms community we intend to serve the community by helping all in knowing more about the canteens inside the campus this website will help you in ordering and getting food in each of the canteens faster enjoy the experience!!!</p>
+        <a href="service.html" class="btn">order now</a>
+    </div>
+
+    <div class="image">
+        <img src="home-img.png" alt="">
+    </div>
+    
+
+</section>
+
+<!-- home section ends -->
+
+<!-- speciality section starts  -->
+
+<div class="step-container">
+
+    <h1 class="heading">how it <span>works</span></h1>
+
+    <section class="steps">
+
+        <div class="box">
+            <img src="step-1.jpg" alt="">
+            <h3>choose your favorite food</h3>
+        </div>
+        <div class="box">
+            <img src="step-2.jpg" alt="">
+            <h3>free and fast delivery</h3>
+        </div>
+        <div class="box">
+            <img src="step-3.jpg" alt="">
+            <h3>easy payments methods</h3>
+        </div>
+        <div class="box">
+            <img src="step-4.jpg" alt="">
+            <h3>and finally, enjoy your food</h3>
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- steps section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">linkedin</a>
+    </div>
+
+    <h1 class="credit"> created by <span> BMSCE students</span> | all rights reserved! </h1>
+
+</section>
+
+<!-- scroll top button  -->
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- loader  -->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+<!-- custom js file link  -->
+<script src="food.js"></script>
+
+
+</body>
+</html>
